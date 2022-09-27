@@ -2,7 +2,7 @@
 
 <img width="202" alt="Screen Shot 2022-09-27 at 1 07 21 PM" src="https://user-images.githubusercontent.com/68693691/192535938-45a6bcee-0379-498d-8eaa-63a7f815197d.png">
 
-This assignment was to make my own C library containing both my own versions of existing functions, and new functions.  I also completed the bonus portion of this assignment. I've used these functions in all other C projects I've made since.  I've also included [get_next_line](#get_next_line) and [ft_printf](#ft_printf) in this repository as I use them as part of Libft.
+This assignment was to make my own C library containing both my own versions of existing functions, and new functions.  I also completed the bonus portion of this assignment. I've used these functions in all other C projects I've made since.  I've also included [get_next_line](#get_next_line) and [ft_printf](#ft_printf) in this repository as I use them as part of Libft. As such the libft.a file also includes get_next_line and ft_printf.
 
 ### Table of contents:
 - [List of Functions](#list-of-functions)
