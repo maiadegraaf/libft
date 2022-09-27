@@ -2,19 +2,28 @@
 
 <img width="202" alt="Screen Shot 2022-09-27 at 1 07 21 PM" src="https://user-images.githubusercontent.com/68693691/192535938-45a6bcee-0379-498d-8eaa-63a7f815197d.png">
 
-This assignment was to make my own C library containing both my own versions of [existing functions](#libc-functions) and [new functions](#addtional-functions).  I've used these functions in all other C projects I've made since.  I've also included [get_next_line](#get_next_line) and [ft_printf](#ft_printf) in this repository as I use them as part of Libft.
+This assignment was to make my own C library containing both my own versions of existing functions, and new functions.  I also completed the bonus portion of this assignment. I've used these functions in all other C projects I've made since.  I've also included [get_next_line](#get_next_line) and [ft_printf](#ft_printf) in this repository as I use them as part of Libft.
+
+### Table of contents:
+- [List of Functions](#list-of-functions)
+	- [Libc Functions](#libc-functions)
+	- [Additional Functions](#additional-functions)
+	- [Bonus Functions](#bonus-functions)
+- [get_next_line](#get_next_line)
+- [ft_printf](#ft_printf)
+- [Installation guide](#installation)
 
 ## List of Functions:
 ### Libc Functions:
 These functions have the same prototypes and implement the same behaviours as the originals.
 | Function | Description |
 | :------ | --------- |
-| ``ft_atoi`` | Reads a String, and, after ignoring spaces with ``ft_isspace``, saves the string into an integer |
-| ``ft_bzero`` | Writes ``n`` zeroes to the string ``s`` |
-| ``ft_calloc`` | Reserves ``x`` blocks of ``y`` bits of memory |
-| ``ft_isalnum`` | Returns ``1`` if the input is a number or a letter in the ``ASCII`` table |
-| ``ft_isalpha`` | Returns ``1`` if the input is a letter in the ``ASCII`` table |
-| ``ft_isascii`` | Returns whether or not a value belongs to the ``ASCII`` table |
+| [``ft_atoi``](ft_atoi.c) | Reads a String, and saves the string into an integer |
+| [``ft_bzero``](ft_bzero.c) | Writes ``n`` zeroes to the string ``s`` |
+| [``ft_calloc``](ft_calloc.c) | Reserves ``x`` blocks of ``y`` bits of memory |
+| [``ft_isalnum``](ft_isalnum.c) | Returns ``1`` if the input is a number or a letter in the ``ASCII`` table |
+| [``ft_isalpha``](ft_isalpha.c) | Returns ``1`` if the input is a letter in the ``ASCII`` table |
+| [``ft_isascii``](ft_isascii.c) | Returns whether or not a value belongs to the ``ASCII`` table |
 | ``ft_isdigit`` | Returns ``1`` if the input is a number in the ``ASCII`` table |
 | ``ft_isprint`` | Returns whether a character is printable |
 | ``ft_itoa`` | Saves the given number as a string (char array) |
@@ -95,20 +104,20 @@ This project was to make my own ```printf``` function.  It had to implement the 
 
 ```int ft_printf(const char *, ...);```
 
-## Intallation:
+## Installation:
 
 Clone the repository
-
+``` 
 git clone https://github.com/maiadegraaf/libft.git
 cd libft
 make
-
+```
 ### Usage:
 
 The makefile compiles all files. It then generates the output file libft.a. Here are some of the commands you can try:
-- Compiles the libft.a file:
+- Compile the libft.a file:
   - ```make all```
-- Compiles all bonus files as well as mandatory ones:
+- Compile all bonus files as well as mandatory ones:
   - ```make bonus```
   
 ### How to add  libft to your makefile:
