@@ -41,7 +41,7 @@ These functions have the same prototypes and implement the same behaviours as th
 | [``ft_strchr``](ft_strchr.c) | Looks for a specific character inside a given string |
 | [``ft_strdup``](ft_strdup.c) | Saves enoug space and duplicates a string |
 | [``ft_strjoin``](ft_strjoin.c) | Concatenates two strings allocating enough space first |
-| [``ft_strlcat``](ft_strlcat.c) | Concatenates two strings ensuring it ends with ``\0``](.c) |
+| [``ft_strlcat``](ft_strlcat.c) | Concatenates two strings ensuring it ends with ``\0`` |
 | [``ft_strlcpy``](ft_strlcpy.c) | Copies ``n - 1`` bytes from a source string to a destination string |
 | [``ft_strlen``](ft_strlen.c) | Returns length of a string |
 | [``ft_strmapi``](ft_strmapi.c) | Applies a function (mapping) to every element in a string |
